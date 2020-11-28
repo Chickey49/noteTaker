@@ -10,7 +10,7 @@ let activeNote = {};
 // A function for getting all notes from the db
 const getNotes = () => {
   return $.ajax({
-    url: "http://localhost:3000/api/notes",
+    url: "/api/notes",
     method: "GET",
   });
 };
@@ -18,17 +18,16 @@ const getNotes = () => {
 // A function for saving a note to the db
 const saveNote = (note) => {
   return $.ajax({
-    url: "http://localhost:3000/api/notes",
+    url: "/api/notes",
     data: note,
     method: "POST",
   });
 };
 
 // A function for deleting a note from the db
-const deleteNote = () => {
+const deleteNote = (id) => {
   return $.ajax({
-    url: "http://localhost:3000/api/notes/",
-    data: note,
+    url: "/api/notes/" + id,
     method: "DELETE",
   });
 };
