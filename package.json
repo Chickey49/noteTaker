@@ -9,7 +9,7 @@
   },
   "scripts": {
   "test": "jest",
-  "start": "Develop/src/server/index.js"
+  "start": "node Develop/src/server/index.js"
   }
   
 }
