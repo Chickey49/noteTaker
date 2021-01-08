@@ -6,7 +6,7 @@ https://pure-coast-22102.herokuapp.com/
 - [Installation](#Installation)
 - [License](#License) 
 ## About the Project  
-An application that can be used to write, save, and delete notes.
+An application that can be used to write, save, and delete notes.  In this exercise, I learned to read and write files with Node.js.
 ## Usage  
 To use, open the command line, navigate to the directory, npm i, then run node index.js.   
 ### Installation  
